@@ -1,9 +1,8 @@
-var Lilac;
+var Ajinkya;
 ! function(e) {
     "use strict";
     e(document).ready(function() {
-        debugger;
-        Lilac = {
+        Ajinkya = {
             initialized: !1,
             mobMenuFlag: !1,
             wookHandler: null,
@@ -75,7 +74,7 @@ var Lilac;
             createMobileMenu: function(t) {
                 var a, i, n = this,
                     o = e("#wrapper");
-                i = e.browser.mobile ? "touchstart" : "click", null !== t && (t = e(window).innerWidth()), 975 >= t && !n.mobMenuFlag && (e("body").prepend('<nav class="nav-mobile"><i class="fa fa-times"></i><h2><i class="fa fa-bars"></i>' + n.mobileMenuTitle + "</h2><ul></ul></nav>"), e(".nav-mobile > ul").html(e(".nav").html()), e(".nav-mobile b").remove(), e(".nav-mobile ul.dropdown-menu").removeClass().addClass("dropdown-mobile"), a = e(".nav-mobile"), e("#nav-mobile-btn").on(i, function(t) {
+                i = e.browser.mobile ? "touchstart" : "click", null !== t && (t = e(window).innerWidth()), 985 >= t && (e("body").prepend('<nav class="nav-mobile"><i class="fa fa-times"></i><h2><i class="fa fa-bars"></i>' + n.mobileMenuTitle + "</h2><ul></ul></nav>"), e(".nav-mobile > ul").html(e(".nav").html()), e(".nav-mobile b").remove(), e(".nav-mobile ul.dropdown-menu").removeClass().addClass("dropdown-mobile"), a = e(".nav-mobile"), e("#nav-mobile-btn").on(i, function(t) {
                     t.stopPropagation(), t.preventDefault(), setTimeout(function() {
                         o.addClass("open"), a.addClass("open"), a.getNiceScroll().show()
                     }, 25), e(document).on(i, function(t) {
@@ -519,6 +518,6 @@ var Lilac;
                     t()
                 }), t())
             }
-        }, Lilac.init()
+        }, Ajinkya.init()
     })
 }(jQuery);
