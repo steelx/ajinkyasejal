@@ -1175,6 +1175,9 @@ fieldset[disabled] .btn.ribbon:hover {
     width: 100%;
     z-index: 1000
 }
+.fbnav {
+    margin-top: 25px;
+}
 .nav-section {
     padding: 0;
     height: 80px;
