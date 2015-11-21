@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    color: #ad9fb3;
+    color: #FF9800;
     text-rendering: optimizelegibility
 }
 h1 {
@@ -53,26 +53,26 @@ body {
     font-size: 14px
 }
 ::selection {
-    background: #ad9fb3;
+    background: #FF9800;
     color: #fff
 }
 ::-moz-selection {
-    background: #ad9fb3;
+    background: #FF9800;
     color: #fff
 }
 .color {
-    color: #ad9fb3
+    color: #FF9800
 }
 .bg-color {
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 .bg-color::selection {
     background: #fff;
-    color: #ad9fb3
+    color: #FF9800
 }
 .bg-color::-moz-selection {
     background: #fff;
-    color: #ad9fb3
+    color: #FF9800
 }
 .bg-color-overlay {
     position: relative
@@ -84,18 +84,18 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    background: #73627b;
+    background: #FF9800;
     -webkit-opacity: .85;
     -moz-opacity: .85;
     opacity: .85
 }
 .bg-color-overlay::selection {
     background: #fff;
-    color: #ad9fb3
+    color: #FF9800
 }
 .bg-color-overlay::-moz-selection {
     background: #fff;
-    color: #ad9fb3
+    color: #FF9800
 }
 .right {
     float: right
@@ -106,7 +106,7 @@ body {
 a,
 a:focus,
 a:hover {
-    color: #ad9fb3
+    color: #FF9800
 }
 img {
     max-width: 100%
@@ -140,7 +140,7 @@ textarea {
 }
 #preloader>div.heartbeat:not(:required):after,
 #preloader>div.heartbeat:not(:required):before {
-    background: #ad9fb3!important
+    background: #FF9800!important
 }
 @-webkit-keyframes heartbeat {
     0% {
@@ -461,7 +461,7 @@ section {
     content: "";
     width: 24%;
     height: 1px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     position: absolute;
     bottom: 0;
     left: 38%;
@@ -473,7 +473,7 @@ section {
     content: "";
     width: 10%;
     height: 3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     position: absolute;
     bottom: -1px;
     left: 45%;
@@ -565,9 +565,9 @@ h2.section-title {
 .btn-default:active,
 .btn-default:hover,
 .open>.dropdown-toggle.btn-default {
-    color: #ad9fb3;
+    color: #FF9800;
     background-color: transparent;
-    border-color: #ad9fb3
+    border-color: #FF9800
 }
 .btn-default.disabled,
 .btn-default.disabled.active,
@@ -630,7 +630,7 @@ fieldset[disabled] .btn-default2:hover {
 .btn-color.focus,
 .btn-color:focus {
     color: rgba(255, 255, 255, .65);
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border-color: rgba(255, 255, 255, .65)
 }
 .btn-color.active,
@@ -638,7 +638,7 @@ fieldset[disabled] .btn-default2:hover {
 .btn-color:hover,
 .open>.dropdown-toggle.btn-color {
     color: #fff;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border-color: #fff
 }
 .btn-color.active,
@@ -699,7 +699,7 @@ fieldset[disabled] .btn-color:hover {
     display: inline-block;
     font-size: 28pt;
     line-height: 28pt;
-    border-color: #ad9fb3
+    border-color: #FF9800
 }
 .btn.ribbon::after,
 .btn.ribbon::before {
@@ -717,7 +717,7 @@ fieldset[disabled] .btn-color:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 44pt;
-    color: #ad9fb3
+    color: #FF9800
 }
 .btn.ribbon::before {
     content: "e";
@@ -743,16 +743,16 @@ fieldset[disabled] .btn-color:hover {
     margin-top: -4px
 }
 .btn.ribbon:hover {
-    color: #ad9fb3
+    color: #FF9800
 }
 .btn.ribbon.btn-color {
-    background: #ad9fb3;
+    background: #FF9800;
     border-color: #fff;
     color: rgba(255, 255, 255, .65)
 }
 .btn.ribbon.btn-color::after,
 .btn.ribbon.btn-color::before {
-    color: #ad9fb3
+    color: #FF9800
 }
 .btn.ribbon.btn-color::before {
     content: "g"
@@ -765,7 +765,7 @@ fieldset[disabled] .btn-color:hover {
 }
 .bg-color .btn.ribbon.btn-color,
 .bg-color-overlay .btn.ribbon.btn-color {
-    background: #ad9fb3;
+    background: #FF9800;
     border-color: #fff;
     color: rgba(255, 255, 255, .65)
 }
@@ -979,10 +979,10 @@ fieldset[disabled] .btn.ribbon:hover {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border: 3px solid #ad9fb3
+    border: 3px solid #FF9800
 }
 .owl-controls .owl-buttons div {
-    color: #ad9fb3;
+    color: #FF9800;
     zoom: 1;
     font-size: 12px;
     padding: 8px 12px 8px 9px;
@@ -1008,7 +1008,7 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .owl-controls .owl-buttons div.owl-next:hover,
 .owl-controls .owl-buttons div.owl-prev:hover {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     color: #fff
 }
 .owl-controls.clickable .owl-buttons div:hover {
@@ -1027,7 +1027,7 @@ fieldset[disabled] .btn.ribbon:hover {
     height: 17px;
     margin: 5px 6px;
     background: rgba(255, 255, 255, .7);
-    border: 2px solid #ad9fb3;
+    border: 2px solid #FF9800;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -1107,7 +1107,7 @@ fieldset[disabled] .btn.ribbon:hover {
     z-index: -1
 }
 .divider-bottom-2.divider-bg-color::after {
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 .divider-bottom-2.divider-pattern::before {
     content: "";
@@ -1125,7 +1125,7 @@ fieldset[disabled] .btn.ribbon:hover {
     background-color: transparent
 }
 .divider-bottom-2.divider-pattern.divider-bg-color::before {
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 .divider-bottom-3::after {
     content: "";
@@ -1222,7 +1222,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .nav>li>a:hover,
 .navbar-nav>li>a.active {
     background-color: transparent;
-    color: #ad9fb3
+    color: #FF9800
 }
 .navbar-nav>li.dropdown>a .caret {
     border-right: 3px solid transparent;
@@ -1276,7 +1276,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .navbar-nav .dropdown-menu>li>a:focus,
 .navbar-nav .dropdown-menu>li>a:hover {
     background-color: #fff;
-    color: #ad9fb3
+    color: #FF9800
 }
 .navbar-nav .dropdown-submenu {
     position: relative
@@ -1309,7 +1309,7 @@ fieldset[disabled] .btn.ribbon:hover {
     right: 8px
 }
 .navbar-nav .dropdown-submenu:hover>a:after {
-    border-left-color: #ad9fb3
+    border-left-color: #FF9800
 }
 .navbar-nav .dropdown-submenu .pull-left {
     float: none
@@ -1319,7 +1319,7 @@ fieldset[disabled] .btn.ribbon:hover {
     margin-left: 10px
 }
 #nav-mobile-btn {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border: 0;
     color: #fff;
     font-size: 28px;
@@ -1399,7 +1399,7 @@ fieldset[disabled] .btn.ribbon:hover {
     color: #73777b
 }
 .nav-mobile a:hover {
-    color: #ad9fb3;
+    color: #FF9800;
     text-decoration: none
 }
 .nav-mobile a:focus {
@@ -1486,7 +1486,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #73627b;
+    background-color: #FF9800;
     -webkit-opacity: .85;
     -moz-opacity: .85;
     opacity: .85
@@ -1774,7 +1774,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8;
@@ -1815,7 +1815,7 @@ fieldset[disabled] .btn.ribbon:hover {
     left: -5px;
     width: 100%;
     height: 100%;
-    background: #ad9fb3;
+    background: #FF9800;
     z-index: -1;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -1837,7 +1837,7 @@ fieldset[disabled] .btn.ribbon:hover {
     height: 0;
     border-style: solid inset inset;
     border-width: 80px 16px 0;
-    border-color: #ad9fb3 transparent transparent;
+    border-color: #FF9800 transparent transparent;
     line-height: 0;
     -webkit-transform: rotate(-35deg);
     -moz-transform: rotate(-35deg);
@@ -1887,7 +1887,7 @@ fieldset[disabled] .btn.ribbon:hover {
     top: 0;
     left: 50%;
     margin-left: -2px;
-    background: #ad9fb3;
+    background: #FF9800;
     -webkit-opacity: .5;
     -moz-opacity: .5;
     opacity: .5;
@@ -1915,14 +1915,14 @@ fieldset[disabled] .btn.ribbon:hover {
     padding: 5px 16px;
     margin: 0;
     position: relative;
-    color: #ad9fb3;
+    color: #FF9800;
     text-align: center;
     background: #fff;
     display: inline-block;
     font-size: 28pt;
     line-height: 28pt;
     font-family: 'Open Sans Condensed', sans-serif;
-    border: 3px solid #ad9fb3;
+    border: 3px solid #FF9800;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px
@@ -1965,7 +1965,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .timeline .event_right::before {
     content: "";
     position: absolute;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     display: block;
     width: 70px;
     height: 3px;
@@ -2059,7 +2059,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8;
@@ -2107,16 +2107,16 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .timeline .event_left:hover::after,
 .timeline .event_right:hover::after {
-    border-color: #ad9fb3;
+    border-color: #FF9800;
     z-index: 3
 }
 .timeline .event_left:hover .event_panel,
 .timeline .event_right:hover .event_panel {
-    border-color: #ad9fb3
+    border-color: #FF9800
 }
 .timeline .event_left:hover .event_panel::before,
 .timeline .event_right:hover .event_panel::before {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     z-index: 4
 }
 .timeline .event_right {
@@ -2256,7 +2256,7 @@ fieldset[disabled] .btn.ribbon:hover {
     font-weight: 300;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #ad9fb3;
+    color: #FF9800;
     margin-top: 15px
 }
 .timeline_footer .punchline span {
@@ -2344,8 +2344,8 @@ fieldset[disabled] .btn.ribbon:hover {
     cursor: pointer;
     text-align: center;
     background-color: #fff;
-    color: #ad9fb3;
-    border: 2px solid #ad9fb3;
+    color: #FF9800;
+    border: 2px solid #FF9800;
     font-size: 16pt;
     line-height: 35px;
     -webkit-border-radius: 6px;
@@ -2383,7 +2383,7 @@ fieldset[disabled] .btn.ribbon:hover {
     height: 0;
     border-style: solid;
     border-width: 12px 10px 0;
-    border-color: #ad9fb3 transparent transparent;
+    border-color: #FF9800 transparent transparent;
     line-height: 0;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
@@ -2392,12 +2392,12 @@ fieldset[disabled] .btn.ribbon:hover {
     transition: all .3s ease-out
 }
 .marker:hover {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border-color: #fff;
     color: #fff
 }
 .marker:hover::after {
-    border-color: #ad9fb3 transparent transparent
+    border-color: #FF9800 transparent transparent
 }
 .marker:hover::before {
     border-color: #fff transparent transparent
@@ -2489,7 +2489,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .location-info .event_right .event_panel h4 small {
     display: block;
     font-family: 'Dancing Script', cursive;
-    color: #ad9fb3;
+    color: #FF9800;
     margin-top: 5px
 }
 .location-info .event_right .event_panel {
@@ -2560,7 +2560,7 @@ fieldset[disabled] .btn.ribbon:hover {
     box-shadow: inset 0 0 0 2px rgba(173, 159, 179, .5)
 }
 .bridesmaids-groomsmen-slider .item .image .info h3 {
-    color: #ad9fb3;
+    color: #FF9800;
     margin-top: 70px;
     font-size: 24pt
 }
@@ -2602,11 +2602,11 @@ fieldset[disabled] .btn.ribbon:hover {
     float: left;
     text-align: center;
     margin: 0 1% 20px;
-    border: 1px solid #ad9fb3;
+    border: 1px solid #FF9800;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #ad9fb3;
+    color: #FF9800;
     padding: 18px;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
@@ -2748,7 +2748,7 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .gallery-wrapper .gallery-left:hover,
 .gallery-wrapper .gallery-right:hover {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px
@@ -2788,7 +2788,7 @@ fieldset[disabled] .btn.ribbon:hover {
     overflow: hidden;
     padding: 0;
     margin: -5px -3px 0 0;
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 .gallery-scroller li img {
     width: 100%;
@@ -2822,14 +2822,14 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .gallery-scroller li>span .fa,
 .gallery-scroller li>span i {
-    color: #ad9fb3;
+    color: #FF9800;
     background-color: #fff;
     font-size: 18pt;
     padding: 10px;
     margin: -12px 10px auto;
     position: relative;
     top: 25%;
-    border: 2px solid #ad9fb3;
+    border: 2px solid #FF9800;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%
@@ -2837,7 +2837,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .gallery-scroller li>span .fa:hover,
 .gallery-scroller li>span i:hover {
     color: #fff;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border-color: #fff
 }
 .gallery-scroller li:hover span {
@@ -2976,7 +2976,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8
@@ -2987,7 +2987,7 @@ fieldset[disabled] .btn.ribbon:hover {
     display: table
 }
 .blog-listing .item .info-blog h3 a {
-    color: #ad9fb3
+    color: #FF9800
 }
 .blog-listing .item .info-blog h3 a:hover {
     text-decoration: none;
@@ -3037,14 +3037,14 @@ fieldset[disabled] .btn.ribbon:hover {
     padding: 5px 10px;
     margin: 0;
     position: relative;
-    color: #ad9fb3;
+    color: #FF9800;
     text-align: center;
     background: #fff;
     display: inline-block;
     font-size: 20pt;
     line-height: 28pt;
     font-family: 'Open Sans Condensed', sans-serif;
-    border: 3px solid #ad9fb3;
+    border: 3px solid #FF9800;
     text-transform: uppercase;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -3153,7 +3153,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8;
@@ -3205,12 +3205,12 @@ fieldset[disabled] .btn.ribbon:hover {
     color: #adb2b6
 }
 .categories li a:hover {
-    color: #ad9fb3;
+    color: #FF9800;
     text-decoration: none
 }
 .categories li a:hover span,
 .categories li:hover:before {
-    color: #ad9fb3
+    color: #FF9800
 }
 .categories li+li {
     border-top: 1px solid #e3e3e3
@@ -3271,11 +3271,11 @@ fieldset[disabled] .btn.ribbon:hover {
     color: #73777b
 }
 .blog-accordion.panel-group .panel .panel-body ul li a:hover {
-    color: #ad9fb3;
+    color: #FF9800;
     text-decoration: none
 }
 .blog-accordion.panel-group .panel .panel-body ul li:hover:before {
-    color: #ad9fb3
+    color: #FF9800
 }
 .tags {
     list-style: none;
@@ -3301,7 +3301,7 @@ fieldset[disabled] .btn.ribbon:hover {
     transition: all .2s ease-out
 }
 .tags li a:hover {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     color: #fff;
     text-decoration: none
 }
@@ -3315,7 +3315,7 @@ fieldset[disabled] .btn.ribbon:hover {
     font-size: 30pt
 }
 .blog-title::before {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     bottom: 0;
     content: "";
     height: 1px;
@@ -3325,7 +3325,7 @@ fieldset[disabled] .btn.ribbon:hover {
     width: 24%
 }
 .blog-title::after {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     bottom: -1px;
     content: "";
     height: 3px;
@@ -3396,7 +3396,7 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .blog-bottom-info #post-author i {
     font-size: 15pt;
-    color: #ad9fb3;
+    color: #FF9800;
     margin-right: 5px
 }
 .blog-bottom-info:after,
@@ -3422,7 +3422,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8
@@ -3452,7 +3452,7 @@ fieldset[disabled] .btn.ribbon:hover {
 }
 .post-content .highlight-color {
     font-size: 21pt;
-    color: #ad9fb3;
+    color: #FF9800;
     line-height: 1.3;
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
@@ -3490,7 +3490,7 @@ fieldset[disabled] .btn.ribbon:hover {
     right: 30px
 }
 .post-content .quote span {
-    color: #ad9fb3
+    color: #FF9800
 }
 .share-wrapper {
     border: 1px solid #e3e3e3;
@@ -3531,7 +3531,7 @@ fieldset[disabled] .btn.ribbon:hover {
     margin: 8px 0!important
 }
 .share-wrapper .print-button:hover {
-    color: #ad9fb3
+    color: #FF9800
 }
 .blog-main h2.section-title {
     font-family: 'Dancing Script', cursive;
@@ -3629,7 +3629,7 @@ fieldset[disabled] .btn.ribbon:hover {
 .comments .comment::before {
     content: "";
     position: absolute;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     display: block;
     width: 10%;
     height: 3px;
@@ -3659,7 +3659,7 @@ fieldset[disabled] .btn.ribbon:hover {
     position: absolute;
     left: 0;
     bottom: -3px;
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     -webkit-opacity: .8;
     -moz-opacity: .8;
     opacity: .8
@@ -3823,7 +3823,7 @@ fieldset[disabled] .btn.ribbon:hover {
     background-color: transparent;
     border-color: rgba(173, 159, 179, .7);
     border-width: 2px;
-    color: #ad9fb3;
+    color: #FF9800;
     height: auto;
     margin-bottom: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -3836,21 +3836,21 @@ textarea.form-control {
     width: 100%
 }
 .form-control::-webkit-input-placeholder {
-    color: #ad9fb3
+    color: #FF9800
 }
 .form-control:-moz-placeholder {
-    color: #ad9fb3
+    color: #FF9800
 }
 .form-control::-moz-placeholder {
-    color: #ad9fb3
+    color: #FF9800
 }
 .form-control:-ms-input-placeholder {
-    color: #ad9fb3
+    color: #FF9800
 }
 .form-control:focus {
     box-shadow: none;
     outline: 0;
-    border-color: #ad9fb3
+    border-color: #FF9800
 }
 .add_list {
     margin-bottom: 20px
@@ -3885,7 +3885,7 @@ textarea.form-control {
     border-bottom: none
 }
 .add_list .input-group-addon:hover {
-    color: #ad9fb3;
+    color: #FF9800;
     cursor: pointer
 }
 .add_list .input-group-addon::after {
@@ -4054,7 +4054,7 @@ textarea.form-control {
 }
 .bg-color .btn .line_above::after,
 .bg-color-overlay .btn .line_above::after {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     border: 3px solid rgba(255, 255, 255, .5)
 }
 .invalid {
@@ -4083,12 +4083,12 @@ textarea.form-control {
 }
 #footer a,
 #footer a:hover {
-    color: #ad9fb3
+    color: #FF9800
 }
 #footer.bg-color,
 #footer.bg-color-overlay {
     border-top: 1px solid rgba(255, 255, 255, .5);
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 #footer.bg-color-overlay::before,
 #footer.bg-color::before {
@@ -4122,8 +4122,8 @@ textarea.form-control {
     width: 45px;
     height: 45px;
     padding: 0;
-    border: 1px solid #ad9fb3;
-    color: #ad9fb3;
+    border: 1px solid #FF9800;
+    color: #FF9800;
     text-align: center;
     line-height: 45px;
     -webkit-border-radius: 3px;
@@ -4220,7 +4220,7 @@ div.lilac .pp_loaderIcon {
 }
 div.lilac .pp_details {
     position: relative;
-    background-color: #ad9fb3
+    background-color: #FF9800
 }
 div.lilac .pp_arrow_previous.disabled {
     background-position: 0 -87px;
@@ -4420,7 +4420,7 @@ a.pp_previous:before {
 }
 a.pp_next:hover,
 a.pp_previous:hover {
-    background-color: #ad9fb3;
+    background-color: #FF9800;
     text-decoration: none
 }
 a.pp_next:focus,
