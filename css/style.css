@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("lilac.css");
+@import url("fontsstyle.css");
 @import url("owl.transitions.css");
 a:focus {
     outline: 0
@@ -418,7 +418,8 @@ textarea {
     box-shadow: 2px 0 5px 0 rgba(0, 0, 0, .3);
     -webkit-transition: -webkit-transform .5s;
     transition: transform .5s;
-    -webkit-backface-visibility: hidden
+    -webkit-backface-visibility: hidden;
+    background: url('../images/sejaj.jpg');
 }
 #wrapper::after {
     position: absolute;
@@ -1487,9 +1488,9 @@ fieldset[disabled] .btn.ribbon:hover {
     left: 0;
     top: 0;
     background-color: #FF9800;
-    -webkit-opacity: .85;
-    -moz-opacity: .85;
-    opacity: .85
+    -webkit-opacity: .30;
+    -moz-opacity: .30;
+    opacity: .30;
 }
 .hero-title {
     color: #fff;
